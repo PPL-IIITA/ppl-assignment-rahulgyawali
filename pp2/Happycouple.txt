@@ -1,6 +1,4 @@
-0,boy9,girl1
-0,boy8,girl1
-0,boy7,girl1
-0,boy6,girl1
-0,boy5,girl1
-0,boy4,girl1
+0,boy3,girl2
+0,boy1,girl2
+0,boy39,girl0
+0,boy26,girl0
