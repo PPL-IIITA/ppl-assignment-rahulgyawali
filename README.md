@@ -29,9 +29,9 @@ System Info :
 
 Buid :
 
-	Question no 1	  =	Run ppl Project to generate couple.txt
+	Question no 1	  =	Run ppl Project i.e Ppl.java in ppl/src/ppl to generate couple.txt
 
-	Question no 2     =	Run pp2 Project with 'k' i.e. No. of Happy Couples to generate Happycouple.txt
+	Question no 2     =	Run pp2 Project i.e Pp2.java in pp2/src/pp2 with 'k' i.e. No. of Happy Couples to generate Happycouple.txt
 =======
     OS : Ubuntu 16.04 LTS 64-bit
     Processor : Intel® Core™ i3-3217U CPU @ 1.80GHz × 4 
