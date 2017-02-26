@@ -1,9 +1,23 @@
 package ppl;
 
+/**
+ *
+ * @author rahul
+ * @since 2017-02-24
+ */
+
 import java.io.*;
 import java.util.Random;
 
 public class randGenerator {
+    
+    /**
+     * <p>This Function randomly Generates Boy Object and Girl Object</p>  
+     * @param ngirls is the first Parameter to randfilein method
+     * @param nboys  is the first Parameter to randfilein method
+     * @throws IOException 
+     * @return void
+     */
     
     void randfilein(int ngirls,int nboys) throws IOException
     {

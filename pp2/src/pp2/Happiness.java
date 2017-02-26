@@ -13,8 +13,17 @@ import java.lang.Math.*;
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
 public class Happiness {
+    
+    /**
+   * This method is used to swap to Couple Object.
+   * @param Couple x This is the first paramter to swap method
+   * @param Couple y This is the second parameter to swap method
+   * @return void
+   */
+    
     
     void swap (Couple x,Couple y) {
     
@@ -77,7 +86,16 @@ public class Happiness {
         x.spend = y.spend;
         y.spend = tmp;
     }
-        
+    
+    /**
+   * This method is used to  fileprint k Happycouple after sorting them by their happiness 
+   * @param Couple[] v This is the first paramter to cal method
+   * @param int k This is the second parameter to cal method
+   * @return void
+   */
+    
+    
+    
     void cal(Couple[] v,int k) throws IOException{
         
         int i;

@@ -3,8 +3,21 @@ package ppl;
 import java.io.*;
 import java.util.Date;
 
+/**
+ *
+ * @author rahul
+ * @since 2017-02-24
+ */
+
 public class pairup {
  
+    /**
+     * This is method pairups the Girl[]g and Boy[]b
+     * @param Boy[] b is first argument
+     * @param Girl[] g is Secong argument
+     * @return void
+     * 
+     */
     
     void pair(Boy[] b,Girl[] g) throws IOException{
         

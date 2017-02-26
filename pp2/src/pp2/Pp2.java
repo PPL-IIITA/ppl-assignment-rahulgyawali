@@ -5,16 +5,20 @@
  */
 package pp2;
 import java.util.Scanner;
+
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
 
 public class Pp2 {
 
     /**
-     * @param args the command line arguments
+     * This is the main method that calls other classes and modules inside them
+     * @return void
      */
+    
     public static void main(String[] args)throws Exception {
           
         GiftGenerator g = new GiftGenerator();

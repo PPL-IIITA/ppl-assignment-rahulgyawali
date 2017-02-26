@@ -8,10 +8,20 @@ import java.io.*;
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
 
 public class Gifting {
 
+    /**
+   * This method is used to assign gifts to various couples depending upon their type 
+   * @param Couple[] v This is the first paramter to Exchange method
+   * @param Gift[] GThis is the second parameter to Exchange method
+   * @return Couple[]
+   */
+    
+    
+    
     Couple[] Exchange (Couple[] v,Gift[] G) throws IOException{
         
       

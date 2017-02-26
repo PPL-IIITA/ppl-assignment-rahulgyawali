@@ -10,9 +10,16 @@ import java.util.*;
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
 
 public class GiftGenerator {
+    
+    /**
+     * 
+   * This method is used to  randomly generate giftbasket and sort them according to price
+   * @return Gift[]
+   */
     
    
     

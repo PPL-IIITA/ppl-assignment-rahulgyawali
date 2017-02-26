@@ -1,5 +1,12 @@
 package ppl;
 
+/**
+ *
+ * @author rahul
+ * @since 2017-02-24
+ */
+
+
 import java.io.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,6 +14,11 @@ import java.io.IOException;
 
 public class Init {
     
+    /**
+     * <p> This Methods Initialiazes Boy[].</p>
+     * @return Boy[]
+     * @throws IOException 
+     */
     
     Boy[] BoysInitial() throws IOException
     {
@@ -46,6 +58,12 @@ public class Init {
         return arr;
     }
     
+    /**
+     * <p> This Method Initializes Girl[].</p>
+     * @return Girl[]
+     * @throws IOException 
+     */
+       
     Girl[] GirlsInitial() throws IOException
     {
         	

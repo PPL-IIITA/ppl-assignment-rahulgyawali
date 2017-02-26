@@ -9,20 +9,32 @@ package pp2;
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
 
 public class Gift {
     
-    int type;   //3 for Luxury , 2 for Utility , 1 for Essential
+    int type;   
     int price;
     int value;
     
+    /**
+     * This is Constructor for Gift() 
+     * 
+     */
     Gift() {
         
         type = 1;
         price = 0;
         value = 0;
     }
+    
+    /**
+     * This is Another constructor for Gift() 
+     * @param int pr This is the first paramter to Gift Constructor
+     * @param int p  This is the second paramter to Gift Constructor
+     * @param int q  This is the third paramter to Gift Constructor
+     */
     
     Gift (int pr,int p ,int q) {    
         

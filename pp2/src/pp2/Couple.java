@@ -12,7 +12,9 @@ import java.io.IOException;
 /**
  *
  * @author rahul
+ * @since 2017-02-24
  */
+
 public class Couple {
     String boy;
     String girl;
@@ -52,6 +54,13 @@ public class Couple {
         ghp = 0;
         in = Integer.parseInt(k);
     }
+
+    /**<p> Xcouple assigns Value to Array of Object Couple</p>
+     * This method is used to assign Couple array with their attributes 
+    * @return Couple[]
+   */
+    
+    
     
     Couple[] xcouple ( ) throws IOException {
       

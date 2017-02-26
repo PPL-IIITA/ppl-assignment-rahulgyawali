@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="pp2">
+  <ClassDiagramComponents>
+    <Class name="Gift" package="pp2" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="type" type="int" visibility="package"/>
+        <Field name="price" type="int" visibility="package"/>
+        <Field name="value" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="int" name="pr"/>
+          <Argument type="int" name="p"/>
+          <Argument type="int" name="q"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Happiness" package="pp2" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="swap" returnType="void" visibility="package">
+          <Argument type="Couple" name="x"/>
+          <Argument type="Couple" name="y"/>
+        </Method>
+        <Method name="cal" returnType="void" visibility="package">
+          <Argument type="Couple[]" name="v"/>
+          <Argument type="int" name="k"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="GiftGenerator" package="pp2" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="GiftGen" returnType="Gift[]" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Pp2" package="pp2" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Couple" package="pp2" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="boy" type="String" visibility="package"/>
+        <Field name="girl" type="String" visibility="package"/>
+        <Field name="m" type="int" visibility="package"/>
+        <Field name="bd" type="int" visibility="package"/>
+        <Field name="btype" type="String" visibility="package"/>
+        <Field name="gtype" type="String" visibility="package"/>
+        <Field name="lc" type="int" visibility="package"/>
+        <Field name="lv" type="int" visibility="package"/>
+        <Field name="spend" type="int" visibility="package"/>
+        <Field name="hp" type="int" visibility="package"/>
+        <Field name="ghp" type="int" visibility="package"/>
+        <Field name="bhp" type="int" visibility="package"/>
+        <Field name="extra" type="int" visibility="package"/>
+        <Field name="in" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="a"/>
+          <Argument type="String" name="b"/>
+          <Argument type="String" name="c"/>
+          <Argument type="String" name="d"/>
+          <Argument type="String" name="e"/>
+          <Argument type="String" name="y"/>
+          <Argument type="String" name="k"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="xcouple" returnType="Couple[]" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Gifting" package="pp2" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Exchange" returnType="Couple[]" visibility="package">
+          <Argument type="Couple[]" name="v"/>
+          <Argument type="Gift[]" name="G"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="pp2.Gifting" target="pp2.Couple" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pp2.GiftGenerator" target="pp2.Gift" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pp2.Happiness" target="pp2.Couple" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pp2.Couple" target="pp2.Couple" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
