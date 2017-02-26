@@ -4,27 +4,34 @@
  * and open the template in the editor.
  */
 package pp2;
-
+import java.util.Scanner;
 /**
  *
  * @author rahul
  */
+
 public class Pp2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args)throws Exception {
-        // TODO code application logic here
-        
-        
-        
-        
-         GiftGenerator g = new GiftGenerator();
-         Gift[] G = g.GiftGen();
+          
+        GiftGenerator g = new GiftGenerator();
+        Gift[] G = g.GiftGen();
          
-         Gifting x =  new Gifting();
-         x.Exchange(G, boy, girl);
+        Couple x = new Couple();
+        Couple[] v = x.xcouple();
+        
+        Gifting l =  new Gifting();
+        v  = l.Exchange(v,G);
+        
+        int k ;
+        Scanner s = new Scanner(System.in);
+        k = s.nextInt();
+        
+        Happiness j =  new Happiness();
+        j.cal(v,k);
     }
     
 }

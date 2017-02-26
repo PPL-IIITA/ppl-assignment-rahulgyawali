@@ -1,5 +1,6 @@
 
 package ppl;
+import java.lang.*;
 
 public class Boy {
     
@@ -16,16 +17,16 @@ public class Boy {
         
     }
     
-    Boy (String n,String p,int i,int a,int b,int m,String t,String x) {
+    Boy (String n,String p,String i,String a,String b,String m,String t,String xr) {
         
         name = n;
         pairedto = p;
-        intelligence = i;
-        attractiveness = a;
-        budget = b;
-        minattr = m;
+        intelligence = Integer.parseInt(i);
+        attractiveness = Integer.parseInt(a);
+        budget = Integer.parseInt(b);
+        minattr = Integer.parseInt(m);
         type = t;
-        xfactor = x;
+        xfactor = xr;
         
     }
     

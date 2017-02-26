@@ -48,9 +48,9 @@ public class GiftGenerator {
         
             tmp = (r.nextInt(4-1) + 1);
             
-            if (tmp == 1) {
+            if (tmp == 1) { 
                 
-                arr[i].type = 3;
+                arr[i].type = 3;                    //Luxury
                 arr[i].price= ((int)(Math.random()*10))*400 + 8000 ;
                 arr[i].value = 10;
                 
@@ -58,7 +58,7 @@ public class GiftGenerator {
             }else if (tmp == 2) {
               
                 
-                arr[i].type = 1;
+                arr[i].type = 1;                    //Essential
                 arr[i].price = ((int)(Math.random()*10))*100 + 3000;
                 arr[i].value = 4;
                 
@@ -66,7 +66,7 @@ public class GiftGenerator {
             }else if (tmp == 3) {
                 
                 
-                arr[i].type = 2;
+                arr[i].type = 2;                    //Utility
                 arr[i].price = ((int)(Math.random()*10))*250 + 5000;
                 arr[i].value= 7 ;
                 
@@ -95,14 +95,6 @@ public class GiftGenerator {
                         arr[j].value = x;
                     }
             }
-            
-            
-        }
-        
-        for (i = 0; i < 100; i++) {
-            System.out.println("Gift"+String.valueOf(i));
-            System.out.println(String.valueOf(arr[i].type) +" "+ String.valueOf(arr[i].price) +" "+ String.valueOf(arr[i].value));
-            System.out.println("\n");
             
             
         }

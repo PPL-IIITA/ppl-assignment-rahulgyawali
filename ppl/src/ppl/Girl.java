@@ -16,13 +16,13 @@ public class Girl {
         
     }
     
-    Girl(String n,String p,int i,int a,int b,String t,String pr) {
+    Girl(String n,String p,String i,String a,String b,String t,String pr) {
         
         name = n;
         pairedto = p;
-        intelligence = i;
-        attractiveness = a;
-        mBudget = b; 
+        intelligence = Integer.parseInt(i);
+        attractiveness = Integer.parseInt(a);
+        mBudget = Integer.parseInt(b); 
         type = t;
         pref = pr;
         
