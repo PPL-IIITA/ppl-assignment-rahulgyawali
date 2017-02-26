@@ -29,9 +29,22 @@ System Info :
 
 Buid :
 
-	Question no 1	  =	Run ppl Project i.e Ppl.java in ppl/src/ppl to generate couple.txt
+	Question no 1	  =	In IDE Run ppl Project i.e Ppl.java in ppl/src/ppl to generate couple.txt
 
-	Question no 2     =	Run pp2 Project i.e Pp2.java in pp2/src/pp2 with 'k' i.e. No. of Happy Couples to generate Happycouple.txt
+	Question no 2     =	In IDE Run pp2 Project i.e Pp2.java in pp2/src/pp2 with 'k' i.e. No. of Happy Couples to generate Happycouple.txt
+
+
+UML and Documentation :
+
+	UML for Question 1 is in ppl/ as ppl_ClassDiagram.pdf
+
+	UML for Question 2 is in pp2/ as pp2_ClassDiagram.pdf
+	
+	Javadoc for Question 1 is in ppl/ppl_javadoc 
+
+	Javadoc for Question 2 is in ppl/pp2_javadoc 
+
+
 =======
     OS : Ubuntu 16.04 LTS 64-bit
     Processor : Intel® Core™ i3-3217U CPU @ 1.80GHz × 4 
