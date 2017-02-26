@@ -23,7 +23,7 @@ Buid :
 
 	Question no 1	  =	Run ppl Project to generate couple.txt
 
-	Question no 2     =	Run pp2 Project to generate Happycouple.txt
+	Question no 2     =	Run pp2 Project with 'k' i.e. No. of Happy Couples to generate Happycouple.txt
 =======
     OS : Ubuntu 16.04 LTS 64-bit
     Processor : Intel® Core™ i3-3217U CPU @ 1.80GHz × 4 

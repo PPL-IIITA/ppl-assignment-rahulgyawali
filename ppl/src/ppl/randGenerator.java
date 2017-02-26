@@ -28,10 +28,10 @@ public class randGenerator {
         if (!file.exists()) {
             
 	     file.createNewFile();
-	}
+	   }
         
         FileWriter fw = new FileWriter(file);
-	bw = new BufferedWriter(fw);
+	    bw = new BufferedWriter(fw);
         
         Random r = new Random();
         int tmp;
@@ -98,11 +98,13 @@ public class randGenerator {
         file = new File("girls.txt");
         
         if (!file.exists()) {
-	     file.createNewFile();
-	  }
+
+	       file.createNewFile();
+           
+	    }
         
         fw = new FileWriter(file);
-	bw = new BufferedWriter(fw);
+	    bw = new BufferedWriter(fw);
         
         for(i = 0;i < ngirls;i++)
         {
