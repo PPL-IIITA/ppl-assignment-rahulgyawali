@@ -1,6 +1,14 @@
 # ppl-assignment-rahulgyawali
 ppl-assignment-rahulgyawali created by GitHub Classroom
 
+Author :
+
+
+	Name	          =	RAHUL GYAWALI
+
+
+	Roll no           =	IIT2015005
+	
 System Info :
 <<<<<<< HEAD
 
