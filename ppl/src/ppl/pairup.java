@@ -35,11 +35,11 @@ public class pairup {
 	br = new BufferedWriter(fw);
         
         
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 30; i++) {
                       
             for (j = 0; j < 50; j++) {
             
-                    if ((b[j].pairedto.equals("none")) && (b[j].budget > g[i].mBudget)){
+                    if ((b[j].pairedto.equals("none")) && (g[i].pairedto.equals("none")) && (b[j].budget > g[i].mBudget)){
                         
                             if ((g[i].attractiveness >= b[j].minattr)) {
                                 Date date = new Date();                       

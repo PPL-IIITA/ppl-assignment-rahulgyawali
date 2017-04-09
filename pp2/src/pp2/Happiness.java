@@ -29,6 +29,7 @@ public class Happiness {
     
         String r;
         int tmp;
+        double p;
         
         r = x.boy;
         x.boy = y.boy;
@@ -50,21 +51,21 @@ public class Happiness {
         x.bd = y.bd;
         y.bd = tmp;
         
-        tmp = x.bhp;
+        p = x.bhp;
         x.bhp = y.bhp;
-        y.bhp = tmp;
+        y.bhp = p;
         
         tmp = x.extra;
         x.extra = y.extra;
         y.extra = tmp;
         
-        tmp = x.ghp;
+        p = x.ghp;
         x.ghp = y.ghp;
-        y.ghp = tmp;
+        y.ghp = p;
         
-        tmp = x.hp;
+        p = x.hp;
         x.hp = y.hp;
-        y.hp = tmp;
+        y.hp = p;
         
         tmp = x.in;
         x.in = y.in;
@@ -142,6 +143,7 @@ public class Happiness {
                }
                
                v[i].hp = v[i].ghp + v[i].bhp;
+               
              
         }
         
@@ -158,7 +160,7 @@ public class Happiness {
         }
         
         BufferedWriter bw = null;
-        File file = new File("Happycouple.txt");
+        File file = new File("LHappycouple.txt");
         
         if (!file.exists()) {
             

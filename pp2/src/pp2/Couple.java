@@ -25,9 +25,9 @@ public class Couple {
     int lc;
     int lv;
     int spend;
-    int hp;
-    int ghp;
-    int bhp;
+    double hp;
+    double ghp;
+    double bhp;
     int extra;
     int in;
     
@@ -48,10 +48,10 @@ public class Couple {
         lc  = 0; 
         lv  =   0;
         spend = 0;
-        hp = 0;
+        hp = 0.0;
         extra = 0;
-        bhp = 0;
-        ghp = 0;
+        bhp = 0.0;
+        ghp = 0.0;
         in = Integer.parseInt(k);
     }
 

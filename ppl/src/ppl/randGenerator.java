@@ -11,14 +11,7 @@ import java.util.Random;
 
 public class randGenerator {
     
-    /**
-     * <p>This Function randomly Generates Boy Object and Girl Object</p>  
-     * @param ngirls is the first Parameter to randfilein method
-     * @param nboys  is the first Parameter to randfilein method
-     * @throws IOException 
-     * @return void
-     */
-    
+  
     void randfilein(int ngirls,int nboys) throws IOException
     {
         BufferedWriter bw = null;
@@ -59,7 +52,7 @@ public class randGenerator {
             bw.write(s);
             bw.write(",");
             
-            tmp =   ((int)(Math.random()*10))*4000 + 10000; //budget
+            tmp =   ((int)(Math.random()*10))*4000 + 8000; //budget
             s = String.valueOf(tmp);
             bw.write(s);
             bw.write(",");

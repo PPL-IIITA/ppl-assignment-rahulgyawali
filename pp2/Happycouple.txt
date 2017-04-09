@@ -1,5 +1,0 @@
-0,boy3,girl2
-0,boy1,girl2
-0,boy39,girl0
-0,boy26,girl0
-0,boy24,girl0

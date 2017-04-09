@@ -22,7 +22,7 @@ public class Ppl {
     public static void main(String[] args) throws IOException{
          
         randGenerator h = new randGenerator();
-        h.randfilein(10,50);
+        h.randfilein(30,50);
         
         Init i = new Init();
         Init j = new Init();

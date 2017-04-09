@@ -58,19 +58,15 @@ public class Init {
         return arr;
     }
     
-    /**
-     * <p> This Method Initializes Girl[].</p>
-     * @return Girl[]
-     * @throws IOException 
-     */
+    
        
     Girl[] GirlsInitial() throws IOException
     {
         	
         int i;
-        Girl[] arr = new Girl[10];
+        Girl[] arr = new Girl[30];
         
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 30; i++) {
         
             arr[i] = new Girl();
         }
@@ -80,7 +76,7 @@ public class Init {
         BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
         String strLine1 =  "";
         
-        for(i = 0;i < 10;i++)
+        for(i = 0;i < 30;i++)
         {
             strLine1 = br.readLine();
             String tokens [] = strLine1.split(",");
