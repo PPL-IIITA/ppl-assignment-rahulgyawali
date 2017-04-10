@@ -5,6 +5,12 @@ import java.util.*;
 
 public class Q5 {
 
+    /**
+     * This is the main Method
+     * @param args
+     * @throws Exception 
+     */
+    
     public static void main(String[] args) throws Exception {
         
         Randomx p = new Randomx();

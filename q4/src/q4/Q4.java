@@ -11,8 +11,11 @@ import java.io.*;
  */
 public class Q4 {
 
-    /**
-     * @param args the command line arguments
+    /**This is the Main Method.
+     * @param args unsed
+     * @exception IOException On input error.
+     * @see IOException
+     * 
      */
     public static void main(String[] args) throws IOException {
         

@@ -11,6 +11,12 @@ package q3;
  */
 public class LuxuryGift extends Gift{
     
+    /**
+   * This is the Constructor which takes follow args.
+   * @param  p This is First Parameter to LuxuryGift Constructor.
+   * @param  v This is Second Parameter to LuxuryGift Constructor.
+   */
+    
     LuxuryGift(int p,int v) {
         
         super(p,v);

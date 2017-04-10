@@ -19,9 +19,27 @@ abstract public class Boy {
     int left;
     int min;
 
+    
+    /**
+   * This is the Default Constructor. 
+   * 
+   */
+    
      Boy() {
         
     }
+    
+      
+    /**
+   * This is Constructor which takes following parameters.
+   * @param n This is the first paramter to Boy Constructor.
+   * @param p This is the second parameter to Boy Constructor.
+   * @param b This is the third parameter to Boy Constructor.
+   * @param a This is the fourth parameter to Boy Constructor.
+   * @param m This is thw fifth parameter to Boy Constructor.
+   * 
+   */ 
+     
      
     Boy (String n,String p,String b,String i,String a, String m) {
         
@@ -35,5 +53,9 @@ abstract public class Boy {
         min = Integer.parseInt(m);
     }
       
+    /**
+   * This Abstract method is used to find happiness of Boy.
+   * @return double  This returns happiness of Boy.
+   */
      abstract public double happiness(); 
 }

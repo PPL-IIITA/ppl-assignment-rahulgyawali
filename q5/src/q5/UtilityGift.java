@@ -11,12 +11,21 @@ package q5;
  */
 public class UtilityGift extends Gift{
  
-   
+   /**
+    * This is the Default Constructor.
+    */
     
     UtilityGift() {
         
         
     }
+    
+    /**
+   * This is the Constructor which takes follow args.
+   * @param  a This is First Parameter to UtilityGift Constructor.
+   * @param  b This is Second Parameter to UtilityGift Constructor.
+   */
+    
     
     UtilityGift (int a,int b) {
         

@@ -24,7 +24,11 @@ import java.util.ArrayList;
  */
 public class Pairing {
     
-    
+    /**
+     * This Method Swaps two Boy Objects.
+     * @param p This is the first parameter.
+     * @param q This is the second parameter.
+     */
     public void swap (Boy p ,Boy q)
     {
         String s;
@@ -64,6 +68,13 @@ public class Pairing {
         
     }
     
+     
+    /**
+     * This Method Swaps two Girl Objects.
+     * @param a This is the first parameter.
+     * @param b This is the Second parameter.
+     */
+    
     public void swap (Girl a, Girl b)
     {
         String s;
@@ -91,6 +102,11 @@ public class Pairing {
         
     }
     
+    /**
+     * This Method Forms Couple from ArrayList<Boy>B and ArrayList<Girl>G.
+     * @param B This is the first paramter.
+     * @param G This is the second parameter.
+     */
     
     public void pair (ArrayList <Boy> B,ArrayList <Girl> G) {
         

@@ -11,10 +11,21 @@ package q5;
  */
 public class EssentialGift extends Gift {
       
+    /**
+     * This is the default constructor
+     */
+    
+    
     EssentialGift() {
         
         
     }
+    
+    /**
+   * This is the Constructor which takes follow args.
+   * @param  a This is First Parameter to EssentialGift Constructor.
+   * @param  b This is Second Parameter to EssentialGift Constructor.
+   */
     
     EssentialGift (int a,int b) {
         

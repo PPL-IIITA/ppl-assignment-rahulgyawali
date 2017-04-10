@@ -17,6 +17,12 @@ import java.util.*;
  */
 public class BInit {
     
+    /**
+     * This Method Initializes ArrayList<Boy>.
+     * @return ArrayList<Boy>.
+     * @throws IOException 
+     */
+    
     public ArrayList<Boy> In () throws IOException {
    
         int i;

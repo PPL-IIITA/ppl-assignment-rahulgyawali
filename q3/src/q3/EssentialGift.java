@@ -11,6 +11,12 @@ package q3;
  */
 public class EssentialGift extends Gift {
     
+    
+    /**
+   * This is the Constructor which takes follow args.
+   * @param  p This is First Parameter to EssentialGift Constructor.
+   * @param  v This is Second Parameter to EssentialGift Constructor.
+   */
     EssentialGift(int p,int v) {
         
         super(p,v);

@@ -4,11 +4,18 @@
  * and open the template in the editor.
  */
 package q3;
-import java.io.*;
 import java.util.*;
 
 
 public class GiftDistribute {
+    
+    /**
+   * This method is used to add Gift with their price and value to ArrayList<Gift> arr
+   * 
+   * @return ArrayList<Gift>.
+   */
+
+    
     
      public ArrayList<Gift> Gen () {
         
@@ -49,6 +56,14 @@ public class GiftDistribute {
         return arr;
     }  
     
+     /**
+   * This method is used to Distribute Gifts Among Couple According to the type of Boys.
+   * @param c This is the first paramter to Distribute method
+   * @param g  This is the second parameter to Distribute method
+   * 
+   */
+
+     
      public void Distribute (ArrayList<Couple> c,ArrayList<Gift> g) {
          
          int i;

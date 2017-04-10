@@ -18,6 +18,14 @@ import java.util.*;
  */
 public class GInit {
     
+    /**
+     * 
+     * This Method is called In , it initializes Girl and store in ArrayList.
+     * @return ArrayList<Girl>
+     * @throws IOException 
+     */
+    
+    
     public ArrayList<Girl> In () throws IOException {
    
         int i;

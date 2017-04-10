@@ -17,6 +17,14 @@ import java.io.*;
  */
 public class Breakup {
     
+    /**This is the Break Method.This is used to reshuffle k least happy couples couples.
+     * @param args unsed
+     * @exception IOException On input error.
+     * @see IOException
+     * 
+     */
+    
+    
       public void Break()throws IOException {
           
         FileInputStream fstream = new FileInputStream("../pp2/LHappycouple.txt");

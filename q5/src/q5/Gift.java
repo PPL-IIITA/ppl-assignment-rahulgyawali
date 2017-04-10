@@ -14,9 +14,21 @@ abstract public class Gift {
     int price;
     int value;
     
+    /**
+   * This is the Default Constructor. 
+   * 
+   */
+    
+    
     Gift () {
         
     }
+    
+    /**
+   * This is Constructor which takes following parameters.
+   * @param x This is the first paramter to Boy Constructor.
+   * @param y This is the second parameter to Boy Constructor.
+   */ 
     
     Gift(int x,int y) {
         

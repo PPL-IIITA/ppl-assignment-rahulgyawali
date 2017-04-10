@@ -10,15 +10,31 @@ import java.util.*;
  * @author rahul
  */
 abstract public class Boy {
+    
     String name;
     String pairedto;
     int budget;
     int spent;
     int left;
 
+    /**
+   * This is the Default Constructor. 
+   * 
+   */
+    
+    
      Boy() {
         
     }
+     
+    /**
+   * This is Constructor which takes following parameters.
+   * @param n This is the first paramter to Boy Constructor.
+   * @param p This is the second parameter to Boy Constructor.
+   * @param b This is the third parameter to Boy Constructor.
+   * 
+   */ 
+     
      
     Boy (String n,String p,String b) {
         
@@ -30,6 +46,10 @@ abstract public class Boy {
         
         
     }
+    /**
+   * This Abstract method is used to find happiness of Boy.
+   * @return double  This returns happiness of Boy.
+   */
       
      abstract public double happiness(); 
     

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="q5">
+  <ClassDiagramComponents>
+    <Class name="LuxuryGift" package="q5" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="int" name="a"/>
+          <Argument type="int" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="EssentialGift" package="q5" visibility="public" xPosition="217.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="int" name="a"/>
+          <Argument type="int" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Gift" package="q5" visibility="public" isAbstract="true" xPosition="320.0" yPosition="218.0">
+      <Fields>
+        <Field name="price" type="int" visibility="package"/>
+        <Field name="value" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="int" name="x"/>
+          <Argument type="int" name="y"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="UtilityGift" package="q5" visibility="public" xPosition="420.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="int" name="a"/>
+          <Argument type="int" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="GInit" package="q5" visibility="public" xPosition="852.0" yPosition="239.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="In" returnType="ArrayList&lt;Girl&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Boy" package="q5" visibility="public" isAbstract="true" xPosition="1413.0" yPosition="10.0">
+      <Fields>
+        <Field name="name" type="String" visibility="package"/>
+        <Field name="pairedto" type="String" visibility="package"/>
+        <Field name="intelligence" type="int" visibility="package"/>
+        <Field name="attractiveness" type="int" visibility="package"/>
+        <Field name="budget" type="int" visibility="package"/>
+        <Field name="spent" type="int" visibility="package"/>
+        <Field name="left" type="int" visibility="package"/>
+        <Field name="min" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="n"/>
+          <Argument type="String" name="p"/>
+          <Argument type="String" name="b"/>
+          <Argument type="String" name="i"/>
+          <Argument type="String" name="a"/>
+          <Argument type="String" name="m"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Class>
+    <Class name="ChoosyGirl" package="q5" visibility="public" xPosition="495.0" yPosition="420.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="MBudget"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Couple" package="q5" visibility="public" xPosition="2303.0" yPosition="35.0">
+      <Fields>
+        <Field name="Boy" type="String" visibility="package"/>
+        <Field name="Girl" type="String" visibility="package"/>
+        <Field name="Happiness" type="int" visibility="package"/>
+        <Field name="compatibility" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="B"/>
+          <Argument type="String" name="G"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="Happiness" returnType="void" visibility="public">
+          <Argument type="int" name="bh"/>
+          <Argument type="int" name="gh"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Girl" package="q5" visibility="public" isAbstract="true" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="name" type="String" visibility="package"/>
+        <Field name="pairedto" type="String" visibility="package"/>
+        <Field name="intelligence" type="int" visibility="package"/>
+        <Field name="attractiveness" type="int" visibility="package"/>
+        <Field name="mBudget" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="n"/>
+          <Argument type="String" name="p"/>
+          <Argument type="String" name="i"/>
+          <Argument type="String" name="a"/>
+          <Argument type="String" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Class>
+    <Class name="BInit" package="q5" visibility="public" xPosition="905.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="In" returnType="ArrayList&lt;Boy&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Q5" package="q5" visibility="public" xPosition="652.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="DesperateGirl" package="q5" visibility="public" xPosition="852.0" yPosition="582.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="MBudget"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MiserBoy" package="q5" visibility="public" xPosition="1497.0" yPosition="740.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="MBudget"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="m"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="GenerousBoy" package="q5" visibility="public" xPosition="1331.0" yPosition="401.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="MBudget"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="min"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gifting" package="q5" visibility="public" xPosition="583.0" yPosition="205.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Gen" returnType="ArrayList&lt;Gift&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="GeeksBoy" package="q5" visibility="public" xPosition="2091.0" yPosition="470.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="MBudget"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="min"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="NormalGirl" package="q5" visibility="public" xPosition="20.0" yPosition="753.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="pairedto"/>
+          <Argument type="String" name="intelligence"/>
+          <Argument type="String" name="attractiveness"/>
+          <Argument type="String" name="MBudget"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="happiness" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Pairing" package="q5" visibility="public" xPosition="464.0" yPosition="610.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="swap" returnType="void" visibility="public">
+          <Argument type="Boy" name="p"/>
+          <Argument type="Boy" name="q"/>
+        </Method>
+        <Method name="swap" returnType="void" visibility="public">
+          <Argument type="Girl" name="a"/>
+          <Argument type="Girl" name="b"/>
+        </Method>
+        <Method name="pair" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Boy&gt;" name="B"/>
+          <Argument type="ArrayList&lt;Girl&gt;" name="G"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Randomx" package="q5" visibility="public" xPosition="832.0" yPosition="787.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Randfilein" returnType="void" visibility="public">
+          <Argument type="int" name="ngirls"/>
+          <Argument type="int" name="nboys"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="q5.Gifting" target="q5.Gift" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="q5.DesperateGirl" target="q5.Girl"/>
+    <IsRelation name="is" source="q5.EssentialGift" target="q5.Gift"/>
+    <IsRelation name="is" source="q5.GeeksBoy" target="q5.Boy"/>
+    <IsRelation name="is" source="q5.GenerousBoy" target="q5.Boy"/>
+    <IsRelation name="is" source="q5.NormalGirl" target="q5.Girl"/>
+    <IsRelation name="is" source="q5.LuxuryGift" target="q5.Gift"/>
+    <UseRelation source="q5.Pairing" target="q5.Girl" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="q5.GInit" target="q5.Girl" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="q5.Pairing" target="q5.Boy" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="q5.UtilityGift" target="q5.Gift"/>
+    <IsRelation name="is" source="q5.MiserBoy" target="q5.Boy"/>
+    <IsRelation name="is" source="q5.ChoosyGirl" target="q5.Girl"/>
+    <UseRelation source="q5.BInit" target="q5.Boy" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

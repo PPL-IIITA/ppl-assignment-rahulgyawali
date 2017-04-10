@@ -11,6 +11,13 @@ import java.util.*;
  */
 public class Gifting {
     
+    /**
+   * This method is used to add Gift with their price and value to ArrayList<Gift> arr
+   * 
+   * @return ArrayList<Gift>.
+   */
+
+    
     public ArrayList<Gift> Gen () {
         
         ArrayList<Gift> arr = new ArrayList<Gift>();

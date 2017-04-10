@@ -29,9 +29,27 @@ public class Couple {
     int extra;
     int left;
    
+     /**
+   * This is the Default Constructor. 
+   * 
+   */
+    
+    
     Couple() {
     
     }
+    
+     /**
+   * This is Constructor which takes following parameters.
+   * @param B This is the first paramter to Couple Constructor.
+   * @param G This is the second parameter to Couple Constructor.
+   * @param x This is the third parameter to Couple Constructor.
+   * @param y This is the fourth paramter to Couple Constructor.
+   * @param Bx This is the fifth parameter to Couple Constructor.
+   * @param Gx This is the sixth parameter to Couple Constructor.
+   * 
+   */ 
+    
     
     Couple (String B,String G,String x,String y,String Bx,String Gx) {
      
@@ -46,12 +64,25 @@ public class Couple {
         extra = 0;
     }
     
+     /**
+   * This method is used to add two integers. 
+   * @param bh This is the first paramter to Happiness method
+   * @param gh  This is the second parameter to Happiness method
+   * 
+   */
+    
     public void Happiness (int bh,int gh) {
         
         Happiness = bh + gh;
         
     }
-    
+    /**
+   * This is the xcouple method which stores coupl's data in ArrayList.
+   * @param args Unused.
+   * @return ArrayList<Couple>.
+   * @exception IOException On input error.
+   * @see IOException
+   */
       
     ArrayList <Couple> xcouple ( ) throws IOException {
       

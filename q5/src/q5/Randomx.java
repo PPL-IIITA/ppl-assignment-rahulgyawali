@@ -17,8 +17,16 @@ import java.io.IOException;
 
 
 
+
 public class Randomx {
    
+    
+    /**
+     * This Method randomly Generates Boys.txt and Girl.txt Files.
+     * @param ngirls This is the first parameter i.e. no. of boys
+     * @param nboys This is the second parameter i.e. no. of girls
+     * @throws IOException 
+     */
     public void Randfilein(int ngirls,int nboys) throws IOException
     {
         BufferedWriter bw = null;
